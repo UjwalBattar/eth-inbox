@@ -1,8 +1,11 @@
 {
   "name": "inbox",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "My first ethereum smart contract: Inbox",
+  "main": "compile.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +20,8 @@
   },
   "homepage": "https://github.com/UjwalBattar/eth-inbox#readme",
   "dependencies": {
-    "solc": "^0.4.25"
+    "ganache-cli": "^6.1.8",
+    "mocha": "^5.2.0",
+    "web3": "^1.0.0-beta.36"
   }
 }
