@@ -1,0 +1,22 @@
+{
+  "name": "inbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UjwalBattar/eth-inbox.git"
+  },
+  "author": "Ujwal Battar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UjwalBattar/eth-inbox/issues"
+  },
+  "homepage": "https://github.com/UjwalBattar/eth-inbox#readme",
+  "dependencies": {
+    "solc": "^0.4.25"
+  }
+}
