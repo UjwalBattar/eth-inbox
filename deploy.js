@@ -7,12 +7,12 @@ const {
 
 const {
     myMnemonic,
-    infuraLink
+    myInfuraLink
 } = require('./config');
 
 const provider = new HDWalletProvider(
     myMnemonic,
-    infuraLink
+    myInfuraLink
 );
 
 const web3 = new Web3(provider);
@@ -35,5 +35,7 @@ const deploy = async () => {
 }
 
 // rinkeby,etherscan.io
+// remix.ethereum.org
+// look into geth and parody
 
 deploy();
